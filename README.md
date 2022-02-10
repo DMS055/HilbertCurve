@@ -9,12 +9,16 @@ Inspired by the one and only Daniel Shiffman and [Marcin Chwedczuk's algorithm f
 ## Some additional info
 **You can change the way the complete curve is being presented by changing:**
 ```java
-  for (int i = 1; i < total; i++)
+  for (int i = 1; i < total; i++) {
+  
+  }
 ```
 **to**
 ```java
 beginShape();
 ...
-  for (int i = 1; i < iterator; i++)
+  for (int i = 1; i < iterator; i++) {
+  
+  }
 endShape();
 ```
