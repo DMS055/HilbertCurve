@@ -38,15 +38,14 @@ void draw() {
   }
 
   noFill();
-  //beginShape();
   // "total" in the for loop gives the whole thing complete and "iterator" gives the animation
   for (int i = 1; i < total; i++) {
     float h = map(i, 0, path.length, 0, 360);
     stroke(h, 255, 255);
     line(path[i].x, path[i].y, path[i-1].x, path[i-1].y);
   }
-  //endShape();
 
+  // Smaller values slow down the drawing process - it may be useful for drawing smaller iterations
   iterator+=5;
   if (iterator >= path.length) {
     iterator = 0;
