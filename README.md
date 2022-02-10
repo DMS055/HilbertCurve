@@ -22,11 +22,10 @@ beginShape();
   }
 endShape();
 ```
-
+&nbsp; 
 **Also, the "o" variable is equal to the number of iterations of the curve, so setting it to**
 ```java
   int o = 5;
 ```
 **will result in**
-&nbsp;
 ![164450168234902142](https://user-images.githubusercontent.com/60157796/153423486-4c790580-b01a-4126-ba62-137d768e7972.png)
