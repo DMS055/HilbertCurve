@@ -22,7 +22,8 @@ beginShape();
   }
 endShape();
 ```
-<br /> 
+<br/> 
+
 **Also, the "o" variable is equal to the number of iterations of the curve, so setting it to**
 ```java
   int o = 5;
