@@ -7,7 +7,6 @@ Inspired by the one and only Daniel Shiffman and [Marcin Chwedczuk's algorithm f
 **Note: this is not a pure Java project, it doesn't include a grphic lib, it uses the default one from Processing 3, so it won't work if run as an independent file!**
 
 ## Some additional info
-<pre>
 **You can change the way the complete curve is being presented by changing:**
 ```java
   for (int i = 1; i < total; i++) {
@@ -29,7 +28,5 @@ endShape();
   int o = 5;
 ```
 **will result in**
-
-
+&nbsp;
 ![164450168234902142](https://user-images.githubusercontent.com/60157796/153423486-4c790580-b01a-4126-ba62-137d768e7972.png)
-</pre>
