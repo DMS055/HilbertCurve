@@ -22,3 +22,11 @@ beginShape();
   }
 endShape();
 ```
+
+
+**Also, the "o" variable is equal to the number of iterations of the curve, so setting it to**
+```java
+  int o = 5;
+```
+**will result in**
+![hilbert](https://user-images.githubusercontent.com/60157796/153422857-4e9a69e0-eea0-4435-85a8-5a7dab8c0963.png)
