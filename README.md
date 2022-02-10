@@ -13,7 +13,7 @@ Inspired by the one and only Daniel Shiffman and [Marcin Chwedczuk's algorithm f
   
   }
 ```
-**to**
+**to: (it will then draw the curve line by line)**
 ```java
 beginShape();
 ...
