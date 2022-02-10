@@ -9,9 +9,9 @@ Inspired by the one and only Daniel Shiffman and [Marcin Chwedczuk's algorithm f
 ## Some additional info
 **You can change the way the complete curve is being presented by changing:**
 ```java
-  for (int i = 1; i < total; i++) {
+for (int i = 1; i < total; i++) {
   
-  }
+}
 ```
 **to: (it will then draw the curve line by line)**
 ```java
@@ -26,7 +26,7 @@ endShape();
 
 **Also, the "o" variable is equal to the number of iterations of the curve, so setting it to:**
 ```java
-  int o = 5;
+int o = 5;
 ```
 **will result in 5 iterations:**
 
